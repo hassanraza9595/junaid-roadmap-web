@@ -1,0 +1,163 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variable */
+:root{
+    --navbar-height: 59px;
+}
+
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Navigation Bar: Logo and Iamges */
+
+#logo{
+    margin: 10px 33px;
+}
+
+#logo img{
+    height: 25px;
+    margin: 10px 15px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+ #navbar{
+    position: relative;
+} 
+
+#navbar ul {
+    display: flex;
+}
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Home Section  */
+
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 619px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #home::before{
+
+    content: "";
+    position: absolute;
+    background: url('images/pexels-photo-1565982.jpeg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.80;
+
+ }
+
+ /* Secondary Section */
+
+ #services{
+    display: flex;
+    margin: 34px;
+ }
+
+
+ #services .box{
+    border: 2px solid brown;
+    margin: 3px 6px;
+    padding: 32px;
+    padding: 10px;
+    border-radius: 30px;
+    background: #f5eeee;
+ }
+
+ #services .box img{
+      height: 160px;
+      margin: auto;
+      display: block;
+} 
+ #services{}
+ #services{}
+
+ 
+
+ /* Utility Classes  */
+
+ #home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    
+ }
+
+ #home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+
+ }
+
+ .h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+ }
+
+ .h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+ }
+
+ .btn{
+    padding: 6px 20px;
+    border: 3px solid white;
+    background-color: brown;
+    color: white;
+    margin: 15px;
+    font-size: 1.5rem;
+    border-radius: 13px;
+    cursor: pointer;
+ }
+
+ .center{
+    text-align: center;
+ }
