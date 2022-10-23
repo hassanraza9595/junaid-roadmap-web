@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,200;0,400;1,600&display=swap" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
     
@@ -30,11 +30,11 @@
 <div id="sideNav">
     <nav>
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">FEATURES</a></li>
-            <li><a href="">SERVICES</a></li>
-            <li><a href="">TESTIMONIALS</a></li>
-            <li><a href="">MEET US</a></li>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#testimonial">TESTIMONIALS</a></li>
+            <li><a href="#footer">MEET US</a></li>
         </ul>
     </nav>
 </div>
@@ -203,6 +203,37 @@
 
 <!--End Testimonial -->
 
+<!-- Footer Section -->
+
+<section id="footer">
+    <img src="images/footer-img.png" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit Shop Today</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            <h1>Opening Hours</h1>
+            <p><i class="fa fa-clock-o"></i>  Monday to Friday - 9am to 9pm</p>
+            <p><i class="fa fa-clock-o"></i>  Saturaday to Sunday - 8am to 11pm</p>
+        </div>
+        <div class="footer-right">
+            <h1>Getting Touch</h1>
+            <p>#30 abc Colony, xyz City IN <i class="fa fa-map-marker"></i></p>
+            <p>example@website.com <i class="fa fa-paper-plane"></i></p>
+            <p> +92300300300300 <i class="fa fa-phone"></i></p>
+        </div>
+    </div>
+    <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        <p>Copyright Hassan Raza 2022</p>
+    </div>
+</section>
+
+<!-- End Footer Section -->
 
 <!-- JS -->
 <script>
@@ -222,6 +253,11 @@
             menu.src = 'images/menu.png';
         }
     }
+
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
 
 </script>
 <!-- END JS -->
