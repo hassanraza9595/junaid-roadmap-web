@@ -1,0 +1,132 @@
+
+
+/* Variable Define */
+:root{
+    --primary-color: #A82C48;
+    --secondary-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* Custom Scrollbar */
+
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+/* Custom CSS */
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    line-height: 3rem;
+}
+
+
+/* Header Design */
+
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: outset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+/* change navbar styling on scroll */
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0, 0.9);
+    transition: all .15s ease-in-out 0s;
+}
+
+/* top banner */
+
+.top-banner{
+    width: 100%;
+    background: url('images/bg/bg-1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+
+
+/* counter design */
+
+.counter-section{
+    background-color: var(--primary-color);
+    padding: 2.5rem 0;
+}
+
+.counter-section p{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.row span,h2{
+    color: white;
+}
+
+
