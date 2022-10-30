@@ -43,7 +43,7 @@ h1{
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 3rem;
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;
 }
 
 h2{
@@ -51,7 +51,7 @@ h2{
     font-size: 2.5rem;
     text-transform: capitalize;
     font-family: var(--secondary-font);
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;
     line-height: 3rem;
 }
 
@@ -59,12 +59,14 @@ h2{
 /* Header Design */
 
 .navigation-wrap{
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     left: 0;
     z-index: 1000;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(97, 95, 95);
 }
 
 .navigation-wrap .nav-item{
@@ -99,7 +101,7 @@ h2{
     left: 0;
     width: 100%;
     background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0, 0.9);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0, 0.09);
     transition: all .15s ease-in-out 0s;
 }
 
@@ -126,7 +128,23 @@ h2{
 }
 
 .row span,h2{
-    color: white;
+    color: white !important;
+}
+
+/* about section */
+
+.about-section{
+    background: var(--white-color);
+    margin-top: 80px;
+}
+
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.625rem;
+}
+
+.about-section .text-sec{
+    padding-left: 2rem;
 }
 
 
