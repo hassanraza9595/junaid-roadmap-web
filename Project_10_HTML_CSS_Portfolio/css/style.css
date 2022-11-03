@@ -166,3 +166,62 @@
 
  /* End Brand Area */
 
+ /* Start Services area */
+
+ .site-main .services-area{
+    padding: 7rem 2rem;
+ }
+
+ .site-main .services-area .services-title{
+    padding: 0 14rem;
+ } 
+
+ .site-main .services-area .services-title h1{
+    font-size: 35px;
+ }
+
+ .site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+ }
+
+ .site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+ }
+ /* End Services Area */
+
+ /* Project Area */
+
+ .site-main .project-area{
+    padding: 4rem 0;
+ }
+
+ .site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal bold 16px/130px;
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project> .title h4{
+    font: normal 700 25px/12px;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .project-area .container .button-group button{
+    padding-bottom: 40px;
+}
+ /* End Project Area */
+
+
