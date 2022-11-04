@@ -11,6 +11,7 @@
 
 /* start navigation */
 
+
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 0.5rem 0 1rem;
 }
@@ -304,4 +305,27 @@
 
  /* End Subscribe ME */
 
+/* footer start */
 
+ footer.footer-area{
+    padding: 5rem 0;
+    background: url(../images/footer-bg.png) no-repeat;
+ }
+
+ footer.footer-area .social h5{
+    font: normal 500 23px/30px;
+    margin-top: 50px;
+ }
+
+ footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+ }
+
+ footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+ }
+
+
+/* end footer  */
