@@ -74,6 +74,16 @@
     padding: 7rem 0;
     width: 90rem;
 }
+
+    /* ========================= Changing =========================== */
+
+    .banner-image img{
+        outline: none !important;
+        width: 50% !important;
+        position: relative !important;
+        left: 300px !important;
+    }
+
 /* End Banner Area */
 
 /* About Area */
